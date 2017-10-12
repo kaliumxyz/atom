@@ -24,6 +24,8 @@ class AtomWindow
     @closedPromise = new Promise((@resolveClosedPromise) =>)
 
     options =
+      frame: false
+      transparent: true
       show: false
       title: 'Atom'
       tabbingIdentifier: 'atom'
